@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 export const Loading = ({onComplete}) => {
     const [text , setText] = useState("");
-    const fullText ="<Hello world/>";
+    const fullText ="Loading...";
     useEffect(() => {
         let index = 0;
 
@@ -21,7 +21,7 @@ export const Loading = ({onComplete}) => {
 
     return <div className="fixed inset-0 z-50 bg-black text-gray-100 flex flex-col items-center justify-center">
         <div className="mb-4 text-4xl font-mono font">
-            {text} <span className="animate-blink ml-1">|</span>
+            {text}<span className="animate-blink ml-1">|</span>
         </div>
 
         <div className="w-[200px] h-[2px] bg-gray-100 rounded relative overflow-hidden">
