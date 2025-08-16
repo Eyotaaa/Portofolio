@@ -1,6 +1,8 @@
 import { cn } from "../lib/utils";
 import { AnimatePresence, motion } from "motion/react";
 import { useState } from "react";
+import { BackgroundGradient } from "../ui/gradient";
+
 
 export const HoverEffect = ({ items, className }) => {
   let [hoveredIndex, setHoveredIndex] = useState(null);
@@ -68,6 +70,7 @@ export const HoverEffect = ({ items, className }) => {
 
 export const Card = ({ className, children }) => {
   return (
+    <BackgroundGradient>
     <div
       className={cn(
         "rounded-2xl h-full w-full p-4 overflow-hidden bg-black border border-transparent dark:border-white/[0.2] group-hover:border-slate-700 relative z-20",
@@ -78,6 +81,7 @@ export const Card = ({ className, children }) => {
         <div className="p-2">{children}</div>
       </div>
     </div>
+    </BackgroundGradient>
   );
 };
 

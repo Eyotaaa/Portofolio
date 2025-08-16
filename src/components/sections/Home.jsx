@@ -1,3 +1,5 @@
+import { HoverBorderGradient } from "../ui/border";
+
 export const Home = () => {
     return <section
         id="home"
@@ -5,18 +7,24 @@ export const Home = () => {
     >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-9 items-center max-w-6xl px-4 mx-auto">
 
-            <div className=" flex items-center justify-center mt-10">
-                < img src="src\assets\DSC01517.JPG" className="rounded-full w-80 h-80 mx-auto mb-6 
-                object-cover shadow-lg border-4 border-orange-500 hover:scale-110 transition-transform duration-300 " >
-                </img>
+            <div className="flex items-center justify-center mt-10">
+                <HoverBorderGradient className="w-[350px] h-[450px]">
+                    <img
+                        src="src/assets/DSC01517.JPG"
+                        alt="Profile"
+                        className="w-full h-full object-cover rounded-2xl"
+                    />
+                </HoverBorderGradient>
+
+
             </div>
             <div>
                 <h1 className="text--5xl md:text-5xl font-bold mb-4 bg-gradient-to-r 
-                from-yellow-500 to-orange-400 bg-clip-text text-transparent leading-right">
+                from-amber-300 to-orange-400 bg-clip-text text-transparent leading-right">
                     Hi, I'm
                 </h1>
                 <span className="text--5xl md:text-5xl font-bold mb-4 bg-gradient-to-r 
-                from-yellow-500 to-orange-400 bg-clip-text text-transparent leading-right">
+                from-amber-300 to-orange-400 bg-clip-text text-transparent leading-right">
                     Dzamir Akmal
                 </span>
                 <p className="text-gray-400 text-lg mb-4 max-w-lg mx-auto leading-right text-justify">

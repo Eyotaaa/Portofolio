@@ -1,5 +1,7 @@
 import { img } from "motion/react-client";
 import { HoverEffect } from "../ui/card";
+import { BackgroundGradient } from "../ui/gradient";
+
 
 export const listprojects = [
     {   
@@ -11,16 +13,18 @@ export const listprojects = [
         image: 'src/assets/Projek/Booknow.png',
     },
     {
-        title: "Netflix",
+        title: "UI/UX Design Booknow App",
         description:
-            "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-        link: "https://netflix.com",
+            "BookNow is a mobile and web app for buying, selling, and reading digital books. I contributed by designing the user interface using Figma.",
+        link: "https://stripe.com",
+        image: 'src/assets/Projek/Booknow.png',
     },
     {
-        title: "Google",
+        title: "UI/UX Design Booknow App",
         description:
-            "A multinational technology company that specializes in Internet-related services and products.",
-        link: "https://google.com",
+            "BookNow is a mobile and web app for buying, selling, and reading digital books. I contributed by designing the user interface using Figma.",
+        link: "https://stripe.com",
+        image: 'src/assets/Projek/Booknow.png',
     },
     {
         title: "Meta",
@@ -44,16 +48,20 @@ export const listprojects = [
 
 export const Project = () => {
     return (
+        
         <section
             id="project"
             className="min-h-screen flex items-center justify-center py-20"
         >
+            
             <div className="flex flex-col items-center w-full max-w-5xl mx-auto px-8">
+                
                 <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-yellow-500 to-orange-400 bg-clip-text text-transparent text-center">
                     Recent Projects
                 </h2>
                 <HoverEffect items={listprojects} />
             </div>
+            
         </section>
     );
 };
