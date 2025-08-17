@@ -2,6 +2,7 @@
 import { useScroll, useTransform, motion } from "motion/react";
 import React, { useEffect, useRef, useState } from "react";
 
+
 export const Timeline = ({
   data
 }) => {
@@ -38,6 +39,7 @@ export const Timeline = ({
           a timeline of my journey.
         </p>
       </div>
+
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
         {data.map((item, index) => (
           <div key={index} className="flex justify-start pt-10 md:pt-40 md:gap-10">
