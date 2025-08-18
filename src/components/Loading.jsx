@@ -13,7 +13,7 @@ export const Loading = ({onComplete}) => {
                 clearInterval(interval);
                 setTimeout(()=>{
                     onComplete();
-                },1000); 
+                },100); 
             }
         },100);
         return () => clearInterval(interval);

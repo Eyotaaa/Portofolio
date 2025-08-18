@@ -9,6 +9,7 @@ import { Project } from './components/sections/Project';
 import { Education } from './components/sections/Education';
 import "./index.css"
 import { Card } from './components/ui/card';
+import { Certificate } from './components/sections/Certificate';
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
   <>
     {!isLoaded && <Loading onComplete={() => setIsLoaded(true)}/>}{""}
       <div 
-      className={`min-h-screen transition-opacity duration-700 ${
+      className={`min-h-screen transition-opacity duration-500 ${
         isLoaded ? "opacity-100" : "opacity-0"
       } bg-white dark:bg-neutral-950 text-gray-100`}
       >
@@ -28,6 +29,8 @@ function App() {
         <Home/>
         <Education/>
         <Project/>
+        <Certificate/>
+        
       </div>
   </>
   ) ;
