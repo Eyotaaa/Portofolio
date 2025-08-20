@@ -10,6 +10,7 @@ import { Education } from './components/sections/Education';
 import "./index.css"
 import { Card } from './components/ui/card';
 import { Certificate } from './components/sections/Certificate';
+import Contact from './components/sections/Contact';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Education/>
         <Project/>
         <Certificate/>
+        <Contact/>
         
       </div>
   </>
