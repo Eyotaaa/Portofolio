@@ -1,8 +1,8 @@
 import { ChevronDownIcon } from '@heroicons/react/16/solid'
 
 export default function Contact() {
-  return (
-    <footer className="relative overflow-hidden bg-gradient-to-b from-white to-gray-100 dark:from-neutral-950 dark:to-neutral-900">
+  return (<section id="contact">
+    <footer className="relative overflow-hidden bg-from-neutral-950 to-neutral-900">
       {/* Glow orange di bawah */}
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[500px] h-[200px] bg-orange-500/20 blur-[120px] rounded-full"></div>
 
@@ -20,7 +20,7 @@ export default function Contact() {
         </div>
 
         {/* Divider before Let's Connect */}
-        <div className="mt-12 border-t border-gray-200 dark:border-gray-700"></div>
+        <div className="mt-12 border-t  border-gray-700"></div>
 
         {/* Title */}
         <h2 className="text-3xl font-bold mt-8 mb-8 bg-gradient-to-r from-yellow-500 to-orange-400 bg-clip-text text-transparent text-center">
@@ -66,7 +66,7 @@ export default function Contact() {
 
         {/* Contact Section */}
         <div className="mt-12 flex flex-col items-center gap-4">
-          <div className="bg-white/60 dark:bg-neutral-900/60 p-6 rounded-2xl shadow-sm backdrop-blur">
+          <div className="bg-neutral-900/60 p-6 rounded-2xl shadow-sm backdrop-blur">
             <h2 className="text-xl font-semibold bg-gradient-to-r from-orange-400 to-yellow-500 bg-clip-text text-transparent text-center mb-4">
               Contact Me
             </h2>
@@ -100,5 +100,6 @@ export default function Contact() {
         </p>
       </div>
     </footer>
+  </section>
   );
 }

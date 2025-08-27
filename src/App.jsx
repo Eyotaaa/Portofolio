@@ -23,7 +23,7 @@ function App() {
       <div 
       className={`min-h-screen transition-opacity duration-500 ${
         isLoaded ? "opacity-100" : "opacity-0"
-      } bg-white dark:bg-neutral-950 text-gray-100`}
+      } bg-neutral-950 text-gray-100`}
       >
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />

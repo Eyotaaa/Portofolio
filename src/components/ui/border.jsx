@@ -28,7 +28,7 @@ export function HoverBorderGradient({
       />
 
       {/* Konten dengan background, biar glow jadi border */}
-      <div className="relative z-10 rounded-[inherit] bg-white dark:bg-neutral-950 p-1">
+      <div className="relative z-10 rounded-[inherit] bg-neutral-950 p-1">
         <div
           className={cn(
             "rounded-[inherit] overflow-hidden transition-transform duration-500 group-hover:scale-105",

@@ -76,7 +76,7 @@ export const Home = () => {
 
                     <div className="flex space-x-4">
                         <a
-                            href="#projects"
+                            href="#project"
                             className="bg-orange-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(251,191,36,0.4)]"
                         >
                             View Projects

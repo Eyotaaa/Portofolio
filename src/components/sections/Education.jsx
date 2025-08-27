@@ -8,14 +8,14 @@ export function Education() {
       content: (
         <div>
           <p
-            className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+            className="mb-4 text-xs font-normal md:text-sm text-neutral-200">
             Logistics Division of INTERFEST 2022.
           </p>
           <p
-            className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            Responsible for planning and managing logistics to ensure smooth event execution. 
-            Successfully coordinated the distribution of equipment and event necessities, 
-            while collaborating with various parties to support the success of one of the largest events held by 
+            className="mb-4 text-xs font-normal  md:text-sm text-neutral-200">
+            Responsible for planning and managing logistics to ensure smooth event execution.
+            Successfully coordinated the distribution of equipment and event necessities,
+            while collaborating with various parties to support the success of one of the largest events held by
             the Informatics Engineering department at Telkom University
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -52,14 +52,14 @@ export function Education() {
       content: (
         <div>
           <p
-            className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+            className="mb-4 text-xs font-normal  md:text-sm text-neutral-200">
             Study independent in PT. Digital Forensic Indonesia as a Digital Forensic Analyst.
           </p>
           <p
-            className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+            className="mb-4 text-xs font-normal  md:text-sm text-neutral-200">
             The Web Attack Digital Forensic Analysis Project studies how web applications are targeted through
-             attacks like SQL Injection, Brute force, and Backlink. It focuses on collecting digital evidence, analyzing security gaps, identifying exploitation methods,
-             and reporting findings. The project aims to understand web threats, suggest security 
+            attacks like SQL Injection, Brute force, and Backlink. It focuses on collecting digital evidence, analyzing security gaps, identifying exploitation methods,
+            and reporting findings. The project aims to understand web threats, suggest security
             improvements, and build skills in digital forensic investigation.
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -96,7 +96,7 @@ export function Education() {
       content: (
         <div>
           <p
-            className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+            className="mb-8 text-xs font-normal  md:text-sm text-neutral-200">
             Internship in Yayasan Pendidikan Telkom (YPT) as a Networking Engineer. To analayze using Ruiji Cloud
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -133,11 +133,11 @@ export function Education() {
       content: (
         <div>
           <p
-            className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+            className="mb-8 text-xs font-normal  md:text-sm text-neutral-200">
             My last research in Telkom University.
           </p>
           <p
-            className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+            className="mb-8 text-xs font-normal  md:text-sm text-neutral-200">
             Build a algorithm to detect audio deepfake using Xception Model and present it in ICOICT 2025 on June 31 2025
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -169,13 +169,13 @@ export function Education() {
         </div>
       ),
     },
-      {
+    {
       title: "May 2025",
       content: (
         <div>
           <p
-            className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-             Finish my study in Telkom University with GPA 3.68 and graduated with Cumlaude predicate.
+            className="mb-8 text-xs font-normal  md:text-sm text-neutral-200">
+            Finish my study in Telkom University with GPA 3.68 and graduated with Cumlaude predicate.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
@@ -206,11 +206,13 @@ export function Education() {
         </div>
       ),
     },
-    
+
   ];
-  return (
+  return (<section
+    id="education">
     <div className="relative w-full overflow-clip">
       <Timeline data={data} />
     </div>
+  </section>
   );
 }
