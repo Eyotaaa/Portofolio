@@ -35,7 +35,7 @@ export default function Contact() {
             rel="noopener noreferrer"
           >
             <img
-              src="src\assets\Logo\social.png"
+              src="social.png"
               alt="GitHub"
               className="h-8 w-8 hover:scale-110 hover:shadow-lg hover:shadow-orange-400/30 transition-transform"
             />
@@ -46,7 +46,7 @@ export default function Contact() {
             rel="noopener noreferrer"
           >
             <img
-              src="src\assets\Logo\linkedin.png"
+              src="linkedin.png"
               alt="LinkedIn"
               className="h-8 w-8 hover:scale-110 hover:shadow-lg hover:shadow-orange-400/30 transition-transform"
             />
@@ -57,7 +57,7 @@ export default function Contact() {
             rel="noopener noreferrer"
           >
             <img
-              src="src\assets\Logo\instagram.png"
+              src="instagram.png"
               alt="Instagram"
               className="h-8 w-8 hover:scale-110 hover:shadow-lg hover:shadow-orange-400/30 transition-transform"
             />

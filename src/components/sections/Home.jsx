@@ -25,7 +25,7 @@ export const Home = () => {
                 <div className="flex items-center justify-center mt-20">
                     <HoverBorderGradient className="w-[350px] h-[450px]">
                         <img
-                            src="src/assets/DSC01517.JPG"
+                            src="DSC01517.JPG"
                             alt="Profile"
                             className="w-full h-full object-cover rounded-2xl"
                         />
