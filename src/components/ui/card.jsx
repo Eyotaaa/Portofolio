@@ -28,8 +28,7 @@ export const HoverEffect = ({ items, className }) => {
           key={item?.link}
           className="relative group block p-2 h-full w-full"
           onMouseEnter={() => {
-            setHoveredIndex(idx);
-            setHoverColor(getRandomColor());
+            
           }}
           onMouseLeave={() => setHoveredIndex(null)}
         >
